@@ -1,0 +1,6 @@
+vpc_name          = "ecsdemo"
+ecs_cluster_name  = "wpcluster"
+region-key        = "devops"
+max_instance_size = "3"
+min_instance_size = "1"
+desired_capacity  = "1"
