@@ -1,5 +1,19 @@
 variable "vpc_name" {
-  default = "ecsdemo"
+}
+
+variable "ecs_cluster_name" {
+}
+
+variable "region-key" {
+}
+
+variable "max_instance_size" {
+}
+
+variable "min_instance_size" {
+}
+
+variable "desired_capacity" {
 }
 
 variable "env" {
@@ -52,24 +66,4 @@ variable "public_subnet_name-az1" {
 
 variable "public_subnet_name-az2" {
   default = "public-2"
-}
-
-variable "region-key" {
-  default = "devops"
-}
-
-variable "ecs_cluster_name" {
-  default = "wpcluster"
-}
-
-variable "max_instance_size" {
-  default = "3"
-}
-
-variable "min_instance_size" {
-  default = "1"
-}
-
-variable "desired_capacity" {
-  default = "1"
 }
