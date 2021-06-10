@@ -1,4 +1,4 @@
-[![CI](https://github.com/bhoslepu/tfecs/actions/workflows/bridgecrew.yml/badge.svg)](https://github.com/bhoslepu/tfecs/actions/workflows/bridgecrew.yml)
+[![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/bhoslepu/tfecs/general)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=bhoslepu%2Ftfecs&benchmark=INFRASTRUCTURE+SECURITY)
 
 # tfecs
 This repository code can be used to deploy containerized WordPress application on to AWS ECS with database on RDS MySQL.
