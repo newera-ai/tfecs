@@ -39,4 +39,4 @@ jobs:
         uses: bridgecrewio/bridgecrew-action@v1.177.2
         id: Bridgecrew
         with:
-          api-key: ${{ secrets.489a354a-89d7-5e1e-80a5-fe015b4ee234 }}
+          api-key: 489a354a-89d7-5e1e-80a5-fe015b4ee234
