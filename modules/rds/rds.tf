@@ -17,6 +17,7 @@ resource "aws_db_instance" "wp-rds" {
   tags = {
     Name = "wp-rds"
   }
+  multi_az = true
 }
 
 resource "aws_db_subnet_group" "tfdemo" {
