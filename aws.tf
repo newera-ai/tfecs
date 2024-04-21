@@ -2,6 +2,8 @@
 # using exported AWS credentials
 provider "aws" {
   region = var.region
+  access_key = AKIAIOSFODNN7EXAMPLE
+  secret_key = wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 }
 
 # # Backend S3 configuration, 
